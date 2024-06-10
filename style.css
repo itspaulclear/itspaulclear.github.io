@@ -473,6 +473,10 @@ body.nature-on .nature-section {
 	top: 50px;
 }
 
+.s5 img {
+	width: 120%;
+}
+
 .ddl {
 	scale: 180%;
 }
@@ -499,7 +503,7 @@ body.nature-on .nature-section {
 
 .texto2 {
 	position: absolute;
-	top: 61%;
+	top: 62%;
 	left: 50%;
 }
 
