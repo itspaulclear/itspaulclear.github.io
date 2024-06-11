@@ -115,6 +115,9 @@ a:hover {
 	border-radius: 5px;
 	background-color: #102770;
 }
+
+
+
 @media screen and (max-width: 580px){
 	.hero-section .dancing{
 		font-size: 18px;
@@ -132,6 +135,10 @@ a:hover {
 	position: relative;
 	display: inline-block;
 	cursor: pointer;
+}
+
+.dd1 img, .dd12 img {
+	size: 50%;
 }
 
 body.about-on .hero-section {
@@ -454,27 +461,33 @@ body.nature-on .nature-section {
 .s1 img {
 	top: -5px;
 	width: 110%;
+	size: 50%;
 }
 
 .s2 img {
 	top: 30px;
+	size: 50%;
 }
 
 .s3 img {
 	top: 5px;
 	width: 110%;
+	size: 50%;
 }
 
 .s4 img {
 	top: 15px;
+	size: 50%;
 }
 
 .s4 img {
 	top: 50px;
+	size: 50%;
 }
 
 .s5 img {
 	width: 120%;
+	size: 50%;
 }
 
 .ddl {
@@ -533,7 +546,6 @@ body.nature-on .nature-section {
 	mix-blend-mode: difference;
 }
 
-
 @media (max-width: 1200px) {
 	.hero-section .dancing{
 		font-size: 15px;
@@ -558,3 +570,4 @@ body.nature-on .nature-section {
 		font-size: 13vw;
 	}
 }
+
