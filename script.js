@@ -1,12 +1,12 @@
 (function($) { "use strict";
 
-    document.getElementsByTagName("body")[0].addEventListener("mousemove", function(n) {
-        t.style.left = n.clientX + "px", 
-		t.style.top = n.clientY + "px", 
-		e.style.left = n.clientX + "px", 
-		e.style.top = n.clientY + "px", 
-		i.style.left = n.clientX + "px", 
-		i.style.top = n.clientY + "px"
+    document.getElementsByTagName("body")[0].addEventListener("mousemove", function(l) {
+        t.style.left = l.clientX + "px", 
+		t.style.top = l.clientY + "px", 
+		e.style.left = l.clientX + "px", 
+		e.style.top = l.clientY + "px", 
+		i.style.left = l.clientX + "px", 
+		i.style.top = l.clientY + "px"
     });
     var t = document.getElementById("cursor"),
         e = document.getElementById("cursor2"),
